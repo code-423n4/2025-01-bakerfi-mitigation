@@ -34,9 +34,6 @@ Mitigations of all High and Medium issues will be considered in-scope and listed
 - [F-37: The `StrategySupplyMorpho` allow to use wrong token in `_asset`](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-37)
 - [F-43: StrategySupplyBase.undeploy does not return the amount of assets actually undeployed, which can cause a withdrawal to fail](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-43)
 - [F-40: VaultRouter cannot be used for deposits when it reaches the maximum deposit limit](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-31)
-- [F-11: The `_handleSweepTokens` function lacks the ability to withdraw native ETH](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-11)
-- [F-14: The interaction between the router and the ERC4626 vault lacks slippage control](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-14)
-- [F-30: Strategies cannot be rebalanced correctly](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-30)
 
 
 
