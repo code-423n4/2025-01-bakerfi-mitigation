@@ -1,7 +1,7 @@
 # BakerFi Mitigation Review
 - Total Prize Pool: 5,000
-  - HM awards: XXX XXX
-  - Judge awards: XXX XXX
+  - HM awards: $4,000
+  - Judge awards: $1,000
 - [Warden guidelines for C4 mitigation reviews](https://code4rena.notion.site/Guidelines-for-C4-mitigation-reviews-ed10fc5cfbf640bd8dcec66f38b343c4)
 - Starts January 28, 2025 20:00 UTC 
 - Ends February 04, 2025 20:00 UTC 
@@ -71,25 +71,6 @@ https://github.com/baker-fi/bakerfi-contracts/tree/develop
 | https://github.com/baker-fi/bakerfi-contracts/pull/6 | F-37 | 
 | https://github.com/baker-fi/bakerfi-contracts/pull/28 | F-43 |  
 | https://github.com/baker-fi/bakerfi-contracts/pull/4 | F-40 |  
-
-
-### Additional scope to be reviewed
-
-These are additional Low Severity changes that will be in scope.
-
-| URL | Reference ID | 
-| ----------- | ------------- |
-| https://github.com/baker-fi/bakerfi-contracts/pull/21 | F-11 | 
-| https://github.com/baker-fi/bakerfi-contracts/pull/25 | F-14 | 
-| https://github.com/baker-fi/bakerfi-contracts/pull/14 | F-30 | 
-| https://github.com/baker-fi/bakerfi-contracts/pull/9  | ADD-01 |
-| https://github.com/baker-fi/bakerfi-contracts/pull/2  | ADD-02 |
-| https://github.com/baker-fi/bakerfi-contracts/pull/10 | ADD-03 |
-| https://github.com/baker-fi/bakerfi-contracts/pull/8  | ADD-04 |
-| https://github.com/baker-fi/bakerfi-contracts/pull/13 | ADD-05 |
-| https://github.com/baker-fi/bakerfi-contracts/pull/7 | ADD-06 |
-
- 
 
 ## Out of Scope
 
