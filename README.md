@@ -16,27 +16,27 @@ Mitigations of all High and Medium issues will be considered in-scope and listed
 
 - [F-1: Users may encounter losses on assets deposited through `StrategySupplyERC4626`](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-1)
 - [F-2: Anyone can call StrategySupplyBase.harvest, allowing users to avoid paying performance fees on interest](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-2)
-- [F6: _deployedAmount not updated on StrategySupplyBase.undeploy, preventing performance fees from being collected](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-6)
-- [F13: There are multiple issues with the decimal conversions between the vault and the strategy ](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-13)
-- [F17: Transactions that use .permit can be front-run to grief the user and steal his funds](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-17)
-- [F18: Malicious actors can exploit user-approved allowances on `VaultRouter` to drain their ERC20 tokens](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-18)
-- [F19: Malicious actors can exploit user-approved allowances on `VaultRouter` to drain their ERC4626 tokens](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-19)
-- [F3: VaultBase is not ERC4626 compliant](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-3)
-- [F4: New strategy can not work due to insufficient allowance](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-4)
-- [F5: `MultiStrategy#removeStrategy()` cannot remove leverage strategies that still have deployed assets ](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-5)
-- [F12: Even when the Vault contract is paused, the rebalance function is not paused ](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-12)
-- [F16: `_maxDeposit` check is incorrect](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-16)
-- [F26: The `dispatch` function of the `VaultRouter`, does not work as intended, with PULL_TOKEN action](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-26)
-- [F27: Incorrect whitelist validation in VaultBase.sol](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-27)
-- [F33: The withdrawal of Multi strategies vault could be DoSed while asset deposits remain unaffected](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-33)
-- [F34: The calculation of `assetsMax` is incorrect](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-34)
-- [F36: The Vault Manager is unable to delete the last strategy from `MultiStrategyVault`](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-36)
-- [F37: The `StrategySupplyMorpho` allow to use wrong token in `_asset`](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-37)
-- [F43: StrategySupplyBase.undeploy does not return the amount of assets actually undeployed, which can cause a withdrawal to fail](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-43)
-- [F11: The `_handleSweepTokens` function lacks the ability to withdraw native ETH](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-11)
-- [F14: The interaction between the router and the ERC4626 vault lacks slippage control](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-14)
-- [F30: Strategies cannot be rebalanced correctly](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-30)
-- [F31: VaultRouter cannot be used for deposits when it reaches the maximum deposit limit](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-31)
+- [F-6: _deployedAmount not updated on StrategySupplyBase.undeploy, preventing performance fees from being collected](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-6)
+- [F-13: There are multiple issues with the decimal conversions between the vault and the strategy ](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-13)
+- [F-17: Transactions that use .permit can be front-run to grief the user and steal his funds](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-17)
+- [F-18: Malicious actors can exploit user-approved allowances on `VaultRouter` to drain their ERC20 tokens](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-18)
+- [F-19: Malicious actors can exploit user-approved allowances on `VaultRouter` to drain their ERC4626 tokens](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-19)
+- [F-3: VaultBase is not ERC4626 compliant](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-3)
+- [F-4: New strategy can not work due to insufficient allowance](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-4)
+- [F-5: `MultiStrategy#removeStrategy()` cannot remove leverage strategies that still have deployed assets ](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-5)
+- [F-12: Even when the Vault contract is paused, the rebalance function is not paused ](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-12)
+- [F-16: `_maxDeposit` check is incorrect](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-16)
+- [F-26: The `dispatch` function of the `VaultRouter`, does not work as intended, with PULL_TOKEN action](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-26)
+- [F-27: Incorrect whitelist validation in VaultBase.sol](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-27)
+- [F-33: The withdrawal of Multi strategies vault could be DoSed while asset deposits remain unaffected](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-33)
+- [F-34: The calculation of `assetsMax` is incorrect](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-34)
+- [F-36: The Vault Manager is unable to delete the last strategy from `MultiStrategyVault`](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-36)
+- [F-37: The `StrategySupplyMorpho` allow to use wrong token in `_asset`](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-37)
+- [F-43: StrategySupplyBase.undeploy does not return the amount of assets actually undeployed, which can cause a withdrawal to fail](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-43)
+- [F-40: VaultRouter cannot be used for deposits when it reaches the maximum deposit limit](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-31)
+- [F-11: The `_handleSweepTokens` function lacks the ability to withdraw native ETH](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-11)
+- [F-14: The interaction between the router and the ERC4626 vault lacks slippage control](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-14)
+- [F-30: Strategies cannot be rebalanced correctly](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-30)
 
 
 
@@ -51,29 +51,26 @@ https://github.com/baker-fi/bakerfi-contracts/tree/develop
 
 | URL | Mitigation of | 
 | ----------- | ------------- |
-| https://github.com/baker-fi/bakerfi-contracts/pull/17 | F1 |
-| https://github.com/baker-fi/bakerfi-contracts/pull/15 | F2 |  
-| https://github.com/baker-fi/bakerfi-contracts/pull/12 | F6 |  
-| https://github.com/baker-fi/bakerfi-contracts/pull/24 | F13 | 
-| https://github.com/baker-fi/bakerfi-contracts/pull/23 | F17 | 
-| https://github.com/baker-fi/bakerfi-contracts/pull/20 | F18 | 
-| https://github.com/baker-fi/bakerfi-contracts/pull/19 | F19 |  
-| https://github.com/baker-fi/bakerfi-contracts/pull/27 | F3 |  
-| https://github.com/baker-fi/bakerfi-contracts/pull/13 | F4 |  
-| https://github.com/baker-fi/bakerfi-contracts/pull/16 | F5 |  
-| https://github.com/baker-fi/bakerfi-contracts/pull/3 | F12 |  
-| https://github.com/baker-fi/bakerfi-contracts/pull/4 | F16 |  
-| https://github.com/baker-fi/bakerfi-contracts/pull/11 | F26 |  
-| https://github.com/baker-fi/bakerfi-contracts/pull/26 | F27 |  
-| https://github.com/baker-fi/bakerfi-contracts/pull/5 | F33 |  
-| https://github.com/baker-fi/bakerfi-contracts/pull/22 | F34 |  
-| https://github.com/baker-fi/bakerfi-contracts/pull/18 | F36 |  
-| https://github.com/baker-fi/bakerfi-contracts/pull/6 | F37 | 
-| https://github.com/baker-fi/bakerfi-contracts/pull/28 | F43 |  
-| https://github.com/baker-fi/bakerfi-contracts/pull/21 | F11 |  
-| https://github.com/baker-fi/bakerfi-contracts/pull/25 | F14 |  
-| https://github.com/baker-fi/bakerfi-contracts/pull/14 | F30 |  
-| https://github.com/baker-fi/bakerfi-contracts/pull/4 | F31 |  
+| https://github.com/baker-fi/bakerfi-contracts/pull/17 | F-1 |
+| https://github.com/baker-fi/bakerfi-contracts/pull/15 | F-2 |  
+| https://github.com/baker-fi/bakerfi-contracts/pull/12 | F-6 |  
+| https://github.com/baker-fi/bakerfi-contracts/pull/24 | F-13 | 
+| https://github.com/baker-fi/bakerfi-contracts/pull/23 | F-17 | 
+| https://github.com/baker-fi/bakerfi-contracts/pull/20 | F-18 | 
+| https://github.com/baker-fi/bakerfi-contracts/pull/19 | F-19 |  
+| https://github.com/baker-fi/bakerfi-contracts/pull/27 | F-3 |  
+| https://github.com/baker-fi/bakerfi-contracts/pull/13 | F-4 |  
+| https://github.com/baker-fi/bakerfi-contracts/pull/16 | F-5 |  
+| https://github.com/baker-fi/bakerfi-contracts/pull/3 | F-12 |  
+| https://github.com/baker-fi/bakerfi-contracts/pull/4 | F-16 |  
+| https://github.com/baker-fi/bakerfi-contracts/pull/11 | F-26 |  
+| https://github.com/baker-fi/bakerfi-contracts/pull/26 | F-27 |  
+| https://github.com/baker-fi/bakerfi-contracts/pull/5 | F-33 |  
+| https://github.com/baker-fi/bakerfi-contracts/pull/22 | F-34 |  
+| https://github.com/baker-fi/bakerfi-contracts/pull/18 | F-36 |  
+| https://github.com/baker-fi/bakerfi-contracts/pull/6 | F-37 | 
+| https://github.com/baker-fi/bakerfi-contracts/pull/28 | F-43 |  
+| https://github.com/baker-fi/bakerfi-contracts/pull/4 | F-40 |  
 
 
 ### Additional scope to be reviewed
@@ -82,10 +79,16 @@ These are additional Low Severity changes that will be in scope.
 
 | URL | Reference ID | 
 | ----------- | ------------- |
-| https://github.com/baker-fi/bakerfi-contracts/pull/21 | F11 | 
-| https://github.com/baker-fi/bakerfi-contracts/pull/25 | F14 | 
-| https://github.com/baker-fi/bakerfi-contracts/pull/14 | F30 | 
-| https://github.com/baker-fi/bakerfi-contracts/pull/4  | F31 | 
+| https://github.com/baker-fi/bakerfi-contracts/pull/21 | F-11 | 
+| https://github.com/baker-fi/bakerfi-contracts/pull/25 | F-14 | 
+| https://github.com/baker-fi/bakerfi-contracts/pull/14 | F-30 | 
+| https://github.com/baker-fi/bakerfi-contracts/pull/9  | ADD-01 |
+| https://github.com/baker-fi/bakerfi-contracts/pull/2  | ADD-02 |
+| https://github.com/baker-fi/bakerfi-contracts/pull/10 | ADD-03 |
+| https://github.com/baker-fi/bakerfi-contracts/pull/8  | ADD-04 |
+| https://github.com/baker-fi/bakerfi-contracts/pull/13 | ADD-05 |
+| https://github.com/baker-fi/bakerfi-contracts/pull/7 | ADD-06 |
+
  
 
 ## Out of Scope
