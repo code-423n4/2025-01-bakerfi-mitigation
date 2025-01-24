@@ -1,7 +1,7 @@
 # BakerFi Mitigation Review
-- Total Prize Pool: 5,000
-  - HM awards: $4,000
-  - Judge awards: $1,000
+- Total Prize Pool: $5,000 in USDC
+  - HM awards: $4,000 in USDC
+  - Judge awards: $1,000 in USDC
 - [Warden guidelines for C4 mitigation reviews](https://code4rena.notion.site/Guidelines-for-C4-mitigation-reviews-ed10fc5cfbf640bd8dcec66f38b343c4)
 - Starts January 28, 2025 20:00 UTC 
 - Ends February 04, 2025 20:00 UTC 
