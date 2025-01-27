@@ -12,7 +12,7 @@ Each warden must submit a mitigation review for *every* individual PR listed in 
 
 ## Findings being mitigated
 
-Mitigations of all High and Medium issues will be considered in-scope and listed here.
+Mitigations of all High and Medium issues will be considered in-scope and are listed here:
 
 - [F-1: Users may encounter losses on assets deposited through `StrategySupplyERC4626`](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-1)
 - [F-2: Anyone can call StrategySupplyBase.harvest, allowing users to avoid paying performance fees on interest](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-2)
@@ -34,7 +34,6 @@ Mitigations of all High and Medium issues will be considered in-scope and listed
 - [F-37: The `StrategySupplyMorpho` allow to use wrong token in `_asset`](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-37)
 - [F-43: StrategySupplyBase.undeploy does not return the amount of assets actually undeployed, which can cause a withdrawal to fail](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-43)
 - [F-40: VaultRouter cannot be used for deposits when it reaches the maximum deposit limit](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-31)
-
 
 
 ## Scope
@@ -71,4 +70,9 @@ https://github.com/baker-fi/bakerfi-contracts/tree/develop
 
 ## Out of Scope
 
-N/A
+All sponsor `acknowledged` (wontfix) findings, including:
+- [F-8: Sending tokens to a Strategy when totalSupply is 0 can permanently make the Vault unavailable](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-8)
+- [F-10: Permit doesn't work with DAI](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-10)
+- [F-35: Cannot withdraw tokens from all strategies in MultiStrategyVault when one third party is paused](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-35)
+
+All known issues listed in the preceding audit's [repo](https://github.com/code-423n4/2024-12-bakerfi?tab=readme-ov-file#automated-findings--publicly-known-issues) are considered known issues and out of scope. 
