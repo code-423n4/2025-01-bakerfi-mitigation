@@ -33,7 +33,7 @@ Mitigations of all High and Medium issues will be considered in-scope and are li
 - [F-36: The Vault Manager is unable to delete the last strategy from `MultiStrategyVault`](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-36)
 - [F-37: The `StrategySupplyMorpho` allow to use wrong token in `_asset`](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-37)
 - [F-43: StrategySupplyBase.undeploy does not return the amount of assets actually undeployed, which can cause a withdrawal to fail](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-43)
-- [F-40: VaultRouter cannot be used for deposits when it reaches the maximum deposit limit](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-31)
+- [F-40: VaultRouter cannot be used for deposits when it reaches the maximum deposit limit](https://code4rena.com/evaluate/2024-12-bakerfi-invitational/findings/F-40)
 
 
 ## Scope
